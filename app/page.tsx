@@ -61,7 +61,7 @@ export default function KapitanZacharPage() {
             href="https://discord.gg/UTrtsmYb"
             className="bg-gray-900 rounded-xl p-6 border border-gray-700 flex items-center justify-center hover:bg-gray-800 transition-colors"
           >
-            <Image src="/discord-logo.png" alt="Discord Logo" width={32} height={32} className="rounded-full" />
+            <Image src="/discord-logo.ico" alt="Discord Logo" width={32} height={32} className="rounded-full" />
           </Link>
         </div>
 
