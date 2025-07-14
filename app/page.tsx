@@ -84,6 +84,15 @@ export default function KapitanZacharPage() {
             rel="noopener noreferrer"
             className="block bg-gray-900 rounded-xl p-4 border border-gray-700 hover:bg-gray-800 transition-colors text-center"
           >
+            <div className="relative w-full h-48 mb-4 rounded-lg overflow-hidden">
+              <Image
+                src="/boop-article-image.jpeg"
+                alt="Dziewczyny zaczęły robić to, co Ajemge1"
+                fill
+                style={{ objectFit: "cover" }}
+                className="rounded-lg"
+              />
+            </div>
             <p className="text-lg font-semibold text-white mb-2">Dziewczyny zaczęły robić to, co Ajemge1</p>
             <p className="text-sm text-gray-400">14 lip 2025 16:50 | Anna Dąbrowska</p>
             <p className="text-sm text-gray-500 mt-2">Kliknij, aby przeczytać na Boop.pl</p>
