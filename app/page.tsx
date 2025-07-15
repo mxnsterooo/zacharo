@@ -66,7 +66,7 @@ export default function KapitanZacharPage() {
           </Link>
           {/* Nowy link do TikToka */}
           <Link
-            href="https://www.tiktok.com/@kapitanzachar"
+            href="https://www.tiktok.com/@kapitan_zachar"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-900 rounded-xl p-6 border border-gray-700 flex items-center justify-center hover:bg-gray-800 transition-colors"
