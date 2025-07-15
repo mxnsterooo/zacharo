@@ -49,19 +49,29 @@ export default function KapitanZacharPage() {
         </div>
 
         {/* Social Links */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+          {" "}
+          {/* Zmieniono na sm:grid-cols-3 */}
           <Link
             href="https://instagram.com/kapitanzachar"
             className="bg-gray-900 rounded-xl p-6 border border-gray-700 flex items-center justify-center hover:bg-gray-800 transition-colors"
           >
             <Instagram className="w-8 h-8 text-white" />
           </Link>
-
           <Link
             href="https://discord.gg/UTrtsmYb"
             className="bg-gray-900 rounded-xl p-6 border border-gray-700 flex items-center justify-center hover:bg-gray-800 transition-colors"
           >
             <Image src="/discord-logo.ico" alt="Discord Logo" width={32} height={32} className="rounded-full" />
+          </Link>
+          {/* Nowy link do TikToka */}
+          <Link
+            href="https://www.tiktok.com/@kapitanzachar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-900 rounded-xl p-6 border border-gray-700 flex items-center justify-center hover:bg-gray-800 transition-colors"
+          >
+            <Image src="/tiktok-logo.png" alt="TikTok Logo" width={32} height={32} />
           </Link>
         </div>
 
@@ -70,7 +80,7 @@ export default function KapitanZacharPage() {
           href="https://kick.com/kapitanzachar"
           className="block w-full bg-green-500 hover:bg-green-600 text-black font-bold py-4 px-6 rounded-xl text-center text-lg transition-colors"
         >
-          🎮 OGLĄDAJ NA KICK
+          OGLĄDAJ NA KICK
         </Link>
 
         {/* Najnowszy artykuł z Boop.pl */}
