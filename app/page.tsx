@@ -83,6 +83,58 @@ export default function KapitanZacharPage() {
           OGLĄDAJ NA KICK
         </Link>
 
+        {/* Sekcja Konkursu Klipowego */}
+        <div className="mt-10 bg-gray-900 rounded-xl p-6 border border-gray-700">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-green-400 mb-4 text-center">
+            KONKURS KLIPOWY – KAPITANZACHAR IRL
+          </h2>
+          <p className="text-lg text-white mb-4 text-center">
+            Do zgarnięcia: <span className="font-bold text-green-400">aż 1200 zł miesięcznie</span> + premie za zasięgi!
+          </p>
+
+          <div className="mb-4">
+            <h3 className="text-lg font-semibold text-gray-300 mb-2">⸻ CO ROBISZ?</h3>
+            <p className="text-base text-gray-400">
+              Tworzysz klipy z IRL streamów KapitanZachar i wrzucasz je na social media:
+            </p>
+            <ul className="list-disc list-inside text-gray-400 ml-4 mt-2">
+              <li>TikTok</li>
+              <li>Twitter (X)</li>
+              <li>Instagram (Reels)</li>
+              <li>Facebook (Reels)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-300 mb-2">⸻ NAGRODY:</h3>
+            <ul className="list-disc list-inside text-gray-400 ml-4">
+              <li>
+                <span className="font-semibold text-white">300 zł</span> za najlepszy klip na każdej platformie (max
+                1200 zł/mc)
+              </li>
+              <li>
+                <span className="font-semibold text-white">25 zł</span> za każde 100K wyświetleń (naturalnych)
+              </li>
+              <li>
+                <span className="font-semibold text-white">250 zł</span> za każde 1M wyświetleń (naturalnych)
+              </li>
+            </ul>
+            <p className="text-base text-gray-400 mt-2">Premie za zasięgi możesz łączyć z główną nagrodą!</p>
+          </div>
+
+          <div className="mt-6 text-center">
+            <p className="text-lg font-semibold text-white mb-2">Konkurs odbywa się na Discordzie!</p>
+            <Link
+              href="https://discord.gg/UTrtsmYb"
+              className="inline-block bg-green-500 hover:bg-green-600 text-black font-bold py-3 px-6 rounded-xl text-center text-lg transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              DOŁĄCZ DO DISCORDA
+            </Link>
+          </div>
+        </div>
+
         {/* Najnowszy artykuł z Boop.pl */}
         <div className="mt-10">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-green-400 mb-6 text-center">
