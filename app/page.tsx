@@ -113,10 +113,12 @@ export default function KapitanZacharPage() {
                 1200 zł/mc)
               </li>
               <li>
-                <span className="font-semibold text-white">25 zł</span> za każde 100K wyświetleń (naturalnych)
+                <span className="font-semibold text-white">25 zł</span> za każde 100K wyświetleń (naturalnych){" "}
+                <span className="text-green-400">(tylko TikTok)</span>
               </li>
               <li>
-                <span className="font-semibold text-white">250 zł</span> za każde 1M wyświetleń (naturalnych)
+                <span className="font-semibold text-white">250 zł</span> za każde 1M wyświetleń (naturalnych){" "}
+                <span className="text-green-400">(tylko TikTok)</span>
               </li>
             </ul>
             <p className="text-base text-gray-400 mt-2">Premie za zasięgi możesz łączyć z główną nagrodą!</p>
