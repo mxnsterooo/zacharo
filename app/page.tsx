@@ -59,7 +59,7 @@ export default function KapitanZacharPage() {
             <Instagram className="w-8 h-8 text-white" />
           </Link>
           <Link
-            href="https://discord.gg/UTrtsmYb"
+            href="https://discord.gg/w72ZsU7q"
             className="bg-gray-900 rounded-xl p-6 border border-gray-700 flex items-center justify-center hover:bg-gray-800 transition-colors"
           >
             <Image src="/discord-logo.ico" alt="Discord Logo" width={32} height={32} className="rounded-full" />
@@ -127,7 +127,7 @@ export default function KapitanZacharPage() {
           <div className="mt-6 text-center">
             <p className="text-lg font-semibold text-white mb-2">Konkurs odbywa się na Discordzie!</p>
             <Link
-              href="https://discord.gg/UTrtsmYb"
+              href="https://discord.gg/w72ZsU7q"
               className="inline-block bg-green-500 hover:bg-green-600 text-black font-bold py-3 px-6 rounded-xl text-center text-lg transition-colors"
               target="_blank"
               rel="noopener noreferrer"
