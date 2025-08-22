@@ -12,6 +12,22 @@ export default function KapitanZacharPage() {
 
       {/* Main Content Wrapper for Responsiveness - Zwiększono py */}
       <div className="px-4 py-12 md:px-6 lg:px-8 max-w-3xl mx-auto">
+        {/* Breaking News - przeniesione na górę */}
+        <div className="mb-10 bg-gray-900 rounded-xl p-6 border border-gray-700 text-center">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-red-400 mb-4">BREAKING NEWS</h2>
+          <div className="mb-4">
+            <Image
+              src="/discord-announcement.png"
+              alt="Ogłoszenie Discord od KapitanZachar"
+              width={600}
+              height={200}
+              className="rounded-lg mx-auto"
+              style={{ objectFit: "contain" }}
+            />
+          </div>
+          <p className="text-lg text-white">Rudy Cwel zakończył karierę! 🎉</p>
+        </div>
+
         {/* Profile Section - Zwiększono mb */}
         <div className="flex flex-col items-center mb-12">
           <div className="relative">
@@ -43,7 +59,7 @@ export default function KapitanZacharPage() {
                 <div className="w-3 h-3 bg-red-500 rounded-full"></div>
                 <span className="text-white font-semibold">KICK STREAM</span>
               </div>
-              <div className="text-gray-400 text-sm">Codziennie o 19:30</div>
+              <div className="text-gray-400 text-sm">Co 2 dni o 19:30</div>
             </div>
           </div>
         </div>
@@ -59,7 +75,7 @@ export default function KapitanZacharPage() {
             <Instagram className="w-8 h-8 text-white" />
           </Link>
           <Link
-            href="https://discord.gg/w72ZsU7q"
+            href="https://discord.gg/Jg6rPnprHp"
             className="bg-gray-900 rounded-xl p-6 border border-gray-700 flex items-center justify-center hover:bg-gray-800 transition-colors"
           >
             <Image src="/discord-logo.ico" alt="Discord Logo" width={32} height={32} className="rounded-full" />
@@ -82,60 +98,6 @@ export default function KapitanZacharPage() {
         >
           OGLĄDAJ NA KICK
         </Link>
-
-        {/* Sekcja Konkursu Klipowego */}
-        <div className="mt-10 bg-gray-900 rounded-xl p-6 border border-gray-700">
-          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-green-400 mb-4 text-center">
-            KONKURS KLIPOWY – KAPITANZACHAR IRL
-          </h2>
-          <p className="text-lg text-white mb-4 text-center">
-            Do zgarnięcia: <span className="font-bold text-green-400">aż 1200 zł miesięcznie</span> + premie za zasięgi!
-          </p>
-
-          <div className="mb-4">
-            <h3 className="text-lg font-semibold text-gray-300 mb-2">⸻ CO ROBISZ?</h3>
-            <p className="text-base text-gray-400">
-              Tworzysz klipy z IRL streamów KapitanZachar i wrzucasz je na social media:
-            </p>
-            <ul className="list-disc list-inside text-gray-400 ml-4 mt-2">
-              <li>TikTok</li>
-              <li>Twitter (X)</li>
-              <li>Instagram (Reels)</li>
-              <li>Facebook (Reels)</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-semibold text-gray-300 mb-2">⸻ NAGRODY:</h3>
-            <ul className="list-disc list-inside text-gray-400 ml-4">
-              <li>
-                <span className="font-semibold text-white">300 zł</span> za najlepszy klip na każdej platformie (max
-                1200 zł/mc)
-              </li>
-              <li>
-                <span className="font-semibold text-white">25 zł</span> za każde 100K wyświetleń (naturalnych){" "}
-                <span className="text-green-400">(tylko TikTok)</span>
-              </li>
-              <li>
-                <span className="font-semibold text-white">250 zł</span> za każde 1M wyświetleń (naturalnych){" "}
-                <span className="text-green-400">(tylko TikTok)</span>
-              </li>
-            </ul>
-            <p className="text-base text-gray-400 mt-2">Premie za zasięgi możesz łączyć z główną nagrodą!</p>
-          </div>
-
-          <div className="mt-6 text-center">
-            <p className="text-lg font-semibold text-white mb-2">Konkurs odbywa się na Discordzie!</p>
-            <Link
-              href="https://discord.gg/w72ZsU7q"
-              className="inline-block bg-green-500 hover:bg-green-600 text-black font-bold py-3 px-6 rounded-xl text-center text-lg transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              DOŁĄCZ DO DISCORDA
-            </Link>
-          </div>
-        </div>
 
         {/* Najnowszy artykuł z Boop.pl */}
         <div className="mt-10">
@@ -203,37 +165,9 @@ export default function KapitanZacharPage() {
               </div>
               <div className="flex items-center gap-2 text-sm text-gray-300">
                 <X className="w-4 h-4 text-white" />
-                <p className="font-semibold">@sknerus_</p>
+                <p className="font-semibold">@example_user</p>
               </div>
             </div>
-
-            {/* Clip 3 */}
-            <div className="bg-gray-900 rounded-xl p-4 border border-gray-700">
-              <div className="relative w-full overflow-hidden rounded-lg mb-3">
-                <iframe
-                  src="https://platform.twitter.com/embed/Tweet.html?id=1939081974963978688&theme=dark"
-                  width="100%"
-                  height="auto"
-                  min-height="350px"
-                  className="rounded-lg max-h-[600px]"
-                  frameBorder="0"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <div className="flex items-center gap-2 text-sm text-gray-300">
-                <X className="w-4 h-4 text-white" />
-                <p className="font-semibold">@sknerus_</p>
-              </div>
-            </div>
-          </div>
-          {/* Link do więcej clipów */}
-          <div className="mt-6 text-center">
-            <Link
-              href="https://x.com/kapitanzachar"
-              className="inline-block bg-gray-800 hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-xl border border-gray-600 transition-colors"
-            >
-              📱 ZOBACZ WIĘCEJ NA X
-            </Link>
           </div>
         </div>
       </div>
