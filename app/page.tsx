@@ -4,7 +4,7 @@ import { useEffect } from "react"
 export default function KapitanZacharPage() {
   useEffect(() => {
     // Automatyczne przekierowanie na Kick po wejściu na stronę
-    window.location.href = "https://kick.com/lesiu_uu"
+    window.location.href = "https://kick.com/lesiu-uu"
   }, [])
 
   return (
@@ -14,7 +14,7 @@ export default function KapitanZacharPage() {
         <h1 className="text-3xl font-bold text-green-400 mb-4">PRZEKIEROWYWANIE...</h1>
         <p className="text-lg text-gray-300 mb-6">Zaraz zostaniesz przekierowany na Kick</p>
         <a
-          href="https://kick.com/lesiu_uu"
+          href="https://kick.com/lesiu-uu"
           className="inline-block bg-green-500 hover:bg-green-600 text-black font-bold py-4 px-8 rounded-xl text-lg transition-colors"
         >
           KLIKNIJ TUTAJ JEŚLI NIE ZOSTAŁEŚ PRZEKIEROWANY
