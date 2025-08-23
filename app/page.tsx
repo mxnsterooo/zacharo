@@ -7,12 +7,7 @@ export default function HomePage() {
   const kickUrl = "https://kick.com/kapitanzachar"
 
   useEffect(() => {
-    // Automatyczne przekierowanie po 3 sekundach
-    const timer = setTimeout(() => {
-      window.location.href = kickUrl
-    }, 3000)
-
-    return () => clearTimeout(timer)
+    window.location.href = kickUrl
   }, [kickUrl])
 
   const handleRedirect = () => {
@@ -24,13 +19,13 @@ export default function HomePage() {
       <div className="text-center space-y-6 p-8 bg-white/10 backdrop-blur-sm rounded-2xl border border-white/20">
         <div className="space-y-2">
           <h1 className="text-4xl font-bold text-white">Przekierowanie na Kick</h1>
-          <p className="text-white/80 text-lg">Za chwilę zostaniesz przekierowany na kanał kapitanzachar</p>
+          <p className="text-white/80 text-lg">Przekierowywanie na kanał kapitanzachar...</p>
         </div>
 
         <div className="space-y-4">
           <div className="flex items-center justify-center space-x-2 text-white/60">
             <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
-            <span>Automatyczne przekierowanie za 3 sekundy...</span>
+            <span>Przekierowywanie...</span>
           </div>
 
           <Button
